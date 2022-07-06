@@ -1,0 +1,72 @@
+  /*Contacto*/
+  .contenedor__contacto{
+      
+   .contenedor__contacto__info {
+      font-family: 'Open Sans', sans-serif;
+      color:white;
+      text-align:center;
+      font-size: medium;
+      list-style: none;
+
+      .contacto__info__ubicacion {
+         width: 30px;
+      }
+   }
+
+   .contenedor__formulario{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+      .formulario{
+         display:flex;
+         font-family: 'Open Sans', sans-serif;
+         color:white;
+         text-align:left;
+         font-size: medium;
+         margin: 20px;
+         padding: 10px;
+         flex-direction:column;
+         align-items: center;
+          
+
+         .formulario__leyenda{
+            text-align: center;
+         }
+
+         input{
+            background-color: white;
+            border-radius:  10px;
+         }
+
+         .marca_auto{
+            border-radius:1;
+         }
+
+         .enviar-formulario {
+            display:inline-block;
+            width: 20vh;
+            height: 5vh;
+         }
+          .limpiar-formulario {
+            display:inline-block;
+            width: 20vh;
+            height: 5vh;
+          }
+         
+
+      }
+
+   }
+
+
+  }
+  
+ 
+  
+  
+   
+  
+  
+  
+   

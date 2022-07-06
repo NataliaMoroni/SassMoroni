@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+@import './fonts';
+@import './variables';
+@import './component/header';
+@import './component/home';
+@import './component/equipo';
+@import './component/servicios';
+@import './component/contacto';
+@import './component/footer';
+
+
+
+ body {
+    background-color: #002C54 ;
+ }
+  
+
+  
+ h2 {
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+   text-align: center;
+   font-size: 23px;
+   font-weight: bold;
+ }
+  
+
+
+ 
