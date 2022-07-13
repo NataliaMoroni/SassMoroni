@@ -35,23 +35,24 @@
          }
 
          input{
-            background-color: white;
-            border-radius:  10px;
+         
+            @extend %botones;
          }
 
          .marca_auto{
-            border-radius:1;
+            text-align: center;
+            @extend %botones2;
          }
 
          .enviar-formulario {
             display:inline-block;
-            width: 20vh;
-            height: 5vh;
+
+            @extend %botones;
          }
           .limpiar-formulario {
             display:inline-block;
-            width: 20vh;
-            height: 5vh;
+            
+            @extend %botones;
           }
          
 
